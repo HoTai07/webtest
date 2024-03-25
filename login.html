@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login-style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "signup">
+        <h1 class="signup-heading">Đăng nhập</h1>
+        <button class = "signup-social">
+            <i class = "uil uil-google signup-social-icon"></i>
+            <span class = "signup-social-text">Login with Google</span>
+        </button>
+        <button class = "signup-social">
+            <i class="uil uil-facebook-f signup-social-icon"></i>
+            <span class = "signup-social-text">Login with facebook</span>
+        </button>
+        
+        <div class = "signup-or"><span>OR</span></div>
+        <form action="#" class="signup-form autocomplete = "off"">
+            <label for="user" id = "user" class="signup-label">Tài khoản/Email</label>
+            <input type="text" class="signup-input" placeholder = "Tên tài khoản/Email">
+            <label for="password" id = "password" class="signup-label">Mật khẩu</label>
+            <div class="password-container">
+                <label>
+                    <input type="password" class="signup-input" id="myInput" placeholder = "Mật khẩu">
+                    <i class="fa-solid fa-eye" id="eye" onclick="myFunction()"></i>
+                </label>
+            </div>
+        </form>
+        
+        <button class="signup-submit">Đăng nhập</button>
+        <p class="signup-already">
+            <span>Chưa có tài khoản</span>
+            <a href = "signup.html" class = "signup-login">Đăng ký</a>
+        </p>
+    </div>
+    <script src="/assets/js/login.js"></script>
+</body>
+</html>

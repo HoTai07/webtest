@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cart-style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section id = "header">
+            <a href = "index.html"><img src="/assets/img/logo.png" class = "logo" alt=""></a>
+            <div class="Card">
+                <div class="CardInner">
+                <div class="container">
+                    <div class="Icon">
+                        <button class = "btn-search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#657789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+                    </div>
+                    <div class="InputContainer">
+                        <input class="input-search" placeholder="Tìm kiếm sản phẩm..."/>
+                    </div>
+                </div>
+               </div>
+            </div>
+            
+            <div>
+                <ul id = "navbar">
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="about.html">GIỚI THIỆU</a></li>
+                    
+                    <li><a href="category.html">DANH MỤC SẢN PHẨM</a>
+                        <ul class = "sub-menu">
+                            <li><a href = "">Bàn phím máy tính</a></li>
+                            <li><a href = "">Chuột máy tính</a></li>
+                            <li><a href = "">Lót chuột</a></li>
+                            <li><a href = "">Bàn máy tính</a></li>
+                            <li><a href = "">Ghế ngồi</a></li>
+                            <li><a href = "">Màn hình máy tính</a></li>
+                            <li><a href = "">Tay nâng màn hình</a></li>
+                            <li><a href = "">Giá đỡ laptop</a></li>
+                            <li><a href = "">Webcam</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="insurance.html">CHÍNH SÁCH BẢO HIỂM</a></li>
+                    <li><a class = "active" href="cart.html"><i class = "fa fa-shopping-bag"></i></a></li>
+                    <li><a href="login.html"><i class = "fa fa-user"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <section id = "cart" class = "section-p1"> 
+        <h2>GIỎ HÀNG</h2>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Xóa khỏi giỏ hàng</td>
+                    <td>Hình ảnh</td>
+                    <td>Tên sản phẩm</td>
+                    <td>Giá</td>
+                    <td>Số lượng</td>
+                    <td>Tổng tiền</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class = "far fa-times-circle"></i></a></td>
+                    <td><img src = "/assets/img/v65.png" alt=""></td>
+                    <td>Kit phím cơ V65</td>
+                    <td>2.150.000đ</td>
+                    <td><input type="number" value = "1"></td>
+                    <td>2.150.000đ</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class = "normal">Cập nhật giỏ hàng</button>
+    </section>
+
+    <section id = "cart-add" class = "section-p1">
+        <div id = "coupon">
+            <h3>Sử dụng mã giảm giá</h3>
+            <div>
+                <input class="coupon-input" type = "text" placeholder = "Sử dụng mã giảm giá ở đây">
+                <button class = "normal">Sử dụng</button>
+            </div>
+        </div>
+
+        <div id = "subtotal">
+            <h3>Tổng tiền</h3>
+            <table>
+                <tr>
+                    <td>Số tiền</td>
+                    <td>2.150.000đ</td>
+                </tr>
+                <tr>
+                    <td>Mã giảm giá</td>
+                    <td>VZ06</td>
+                </tr>
+                <tr>
+                    <td><strong>Tổng số tiền</strong></td>
+                    <td><strong>2.150.000đ</strong></td>
+                </tr>
+            </table>
+            
+            <button class = "normal"><a href="payment.html">Thanh toán</a></button>
+        </div>
+    </section>
+
+    <footer class = "footer">
+        <div class = "footer-container">
+            <div class = "row">
+                <div class = "footer-col">
+                    <h4>Cửa hàng</h4>
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Dịch vụ</a></li>
+                        <li><a href="#">Giấy phép</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-col">
+                    <h4>Hổ trợ</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-col">
+                    <h4>Online Shopping</h4>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giỏ hàng</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-col">
+                    <h4>follow us</h4>
+                    <div class = "social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

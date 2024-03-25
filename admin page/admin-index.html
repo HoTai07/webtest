@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/admin page/assets/css/admin-index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="storefront"></ion-icon></span>
+                        <span class="title">Shop name</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active" href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Trang chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin page/customers-admin.html">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="title">Khách hàng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin page/employee-admin.html">
+                        <span class="icon"><ion-icon name="man-outline"></ion-icon></span>
+                        <span class="title">Nhân viên</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin page/category-admin.html">
+                        <span class="icon"><ion-icon name="reorder-four-outline"></ion-icon></span>
+                        <span class="title">Danh mục sản phẩm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin page/product-admin.html">
+                        <span class="icon"><i class='bx bx-box'></i></span>
+                        <span class="title">Sản phẩm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Đăng xuất</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="number">1.000</div>
+                        <div class="cardName">Lượt truy cập</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="number">100</div>
+                        <div class="cardName">Đang bán</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="number">200</div>
+                        <div class="cardName">Tin nhắn</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="number">90.000.000</div>
+                        <div class="cardName">Thu nhập</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- order detail list -->
+            <div class="detail">
+                <div class="recentOders">
+                    <div class="cardHeader">
+                        <h2>Recent Oders</h2>
+                        <a href="#" class = "btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Tên sản phẩm</td>
+                                <td>Giá</td>
+                                <td>Tình trạng thanh toán</td>
+                                <td>Giao hàng</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kit V65</td>
+                                <td>2.150.000đ</td>
+                                <td>Đã thanh toán</td>
+                                <td><span class = "status delivered">Đã giao hàng</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>LOGITECH G502</td>
+                                <td>2.150.000đ</td>
+                                <td>Quá hạn thanh toán</td>
+                                <td><span class = "status pending">Đang chờ thanh toán</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Kit V65</td>
+                                <td>2.150.000đ</td>
+                                <td>Đã thanh toán</td>
+                                <td><span class = "status return">Hoàn trả</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>LOGITECH G502</td>
+                                <td>2.150.000đ</td>
+                                <td>Quá hạn thanh toán</td>
+                                <td><span class = "status inProgress">Đang xử lý</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Kit V65</td>
+                                <td>2.150.000đ</td>
+                                <td>Đã thanh toán</td>
+                                <td><span class = "status delivered">Đã giao hàng</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>LOGITECH G502</td>
+                                <td>2.150.000đ</td>
+                                <td>Quá hạn thanh toán</td>
+                                <td><span class = "status pending">Đang chờ thanh toán</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Kit V65</td>
+                                <td>2.150.000đ</td>
+                                <td>Đã thanh toán</td>
+                                <td><span class = "status return">Hoàn trả</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>LOGITECH G502</td>
+                                <td>2.150.000đ</td>
+                                <td>Quá hạn thanh toán</td>
+                                <td><span class = "status inProgress">Đang xử lý</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Kit V65</td>
+                                <td>2.150.000đ</td>
+                                <td>Đã thanh toán</td>
+                                <td><span class = "status delivered">Đã giao hàng</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>LOGITECH G502</td>
+                                <td>2.150.000đ</td>
+                                <td>Quá hạn thanh toán</td>
+                                <td><span class = "status pending">Đang chờ thanh toán</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>Kit V65</td>
+                                <td>2.150.000đ</td>
+                                <td>Đã thanh toán</td>
+                                <td><span class = "status return">Hoàn trả</span></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>LOGITECH G502</td>
+                                <td>2.150.000đ</td>
+                                <td>Quá hạn thanh toán</td>
+                                <td><span class = "status inProgress">Đang xử lý</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- order detail list -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <td><h4>Huy<br><span>TP.Hồ Chí Minh</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>TP.Hồ Chí Minh</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>TP.Hồ Chí Minh</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>TP.Hồ Chí Minh</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>Hà Nội</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>Hà Nội</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>Hà Nội</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Huy<br><span>Hà Nội</span></h4></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src = "/admin page/assets/js/admin-script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
